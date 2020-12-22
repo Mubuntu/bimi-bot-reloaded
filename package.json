@@ -1,0 +1,21 @@
+{
+  "name": "bimi-bot-reloaded",
+  "version": "1.0.0",
+  "description": "a discord bot for the braksquad server",
+  "main": "main.js",
+  "scripts": {
+    "test": "nodemon main.js",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "Mubuntu"
+  ],
+  "author": "Mubuntu",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "fibers": "^5.0.0",
+    "fs": "0.0.1-security",
+    "nodemon": "^2.0.6"
+  }
+}
